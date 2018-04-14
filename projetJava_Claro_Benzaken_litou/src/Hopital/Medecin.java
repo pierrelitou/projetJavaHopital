@@ -11,4 +11,11 @@ package Hopital;
  */
 public class Medecin extends Employe {
     
+    private String specialite;
+    
+    public Medecin(int numero, String nom, String prenom, String adress, int tel, String specialite) {
+        super(numero, nom, prenom, adress, tel);
+        this.specialite=specialite;
+    }
+    
 }

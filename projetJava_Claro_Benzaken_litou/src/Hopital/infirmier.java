@@ -11,4 +11,8 @@ package Hopital;
  */
 public class infirmier extends Employe {
     
+    public infirmier(int numero, String nom, String prenom, String adress, int tel) {
+        super(numero, nom, prenom, adress, tel);
+    }
+    
 }
